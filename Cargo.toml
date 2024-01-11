@@ -6,4 +6,17 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-web-view = "0.7.3"
+walkdir = "2.4.0"
+kamadak-exif = "0.5.5"
+geoutils = "0.5.1"
+petal-clustering = { git = "https://github.com/marcinbugaj/petal-clustering.git", rev = "b33aeb206935de301567c237b185b67918728b6f" }
+petal-neighbors = "0.10.0"
+ndarray = "0.15.6"
+serde = "1.0.195"
+serde_json = "1.0.111"
+geo = "0.27.0"
+tokio = { version = "1", features = ["full"] }
+rust-embed = "8.2.0"
+actix-web = "4.4.1"
+open = "5.0.1"
+actix-files = "0.6.5"

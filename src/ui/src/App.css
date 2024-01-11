@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+.leaflet-container {
+  width: 60vw;
+  height: 60vh;
+}
+
+.grid {
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.treeView {
+  border-style: groove;
+  border-color: lightgray;
+}
